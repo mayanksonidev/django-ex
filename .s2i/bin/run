@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Sir, the application is now launching..."
+
+# Execute the standard run command
+exec /usr/libexec/s2i/run
