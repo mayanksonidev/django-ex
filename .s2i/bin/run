@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Sir, the application is now launching..."
+echo "Mock Exam: Runtime Phase."
 
 # Execute the standard run command
 exec /usr/libexec/s2i/run
