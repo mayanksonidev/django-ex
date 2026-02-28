@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Mock Exam: Build Phase"
-ls -al 
+ls -al ../..
 if [[ -f "requirements.txt" ]]; then
   echo "file found"
   pip install -r requirements.txt
