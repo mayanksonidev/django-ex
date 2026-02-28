@@ -1,6 +1,11 @@
 #!/bin/bash
 
 echo "Mock Exam: Build Phase"
+ls -al 
+if [[ -f "requirements.txt" ]]; then
+  echo "file found"
+  pip install -r requirements.txt
+fi
 
 # Run the original assembly logic
 exec /usr/libexec/s2i/assemble
